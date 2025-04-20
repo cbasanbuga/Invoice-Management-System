@@ -25,8 +25,8 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 
 | Kullanıcı Adı | Şifre | Rol    |
 |---------------|-------|--------|
-| admin         | 1234  | ADMIN  |
-| user          | 1234  | USER   |
+| Batuhan         | 1234  | ADMIN  |
+| Batuhan2        | 1234  | USER   |
 
 ## API Örnekleri
 
