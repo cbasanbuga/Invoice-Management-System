@@ -31,8 +31,6 @@ public class SecurityConfig {
 
         return new InMemoryUserDetailsManager(cba, hba);
 
-
-        //asd
     }
 
     @Bean
