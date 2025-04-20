@@ -25,8 +25,8 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 
 | Kullanıcı Adı | Şifre | Rol    |
 |---------------|-------|--------|
-| Batuhan         | 1234  | ADMIN  |
-| Batuhan2        | 1234  | USER   |
+| Batuhan         | 123  | USER  |
+| Batuhan2        | 456  | USER, MANANGER   |
 
 ## API Örnekleri
 
@@ -34,7 +34,7 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 
 ```http
 POST /api/invoices
-Authorization: Basic (admin / 1234)
+Authorization: Basic (Batuhan / 123)
 Content-Type: application/json
 
 {
