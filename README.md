@@ -30,7 +30,7 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 
 ## API Örnekleri
 
-### Fatura Oluştur (Sadece ADMIN)
+### Fatura Oluştur
 
 ```http
 POST /api/invoices
