@@ -15,7 +15,7 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 ## Kullanılan Teknolojiler
 
 - Java 17
-- Spring Boot 3.x
+- Spring Boot 3.4.4
 - Spring Security
 - Lombok
 - Open Liberty (Servlet konteyner)
@@ -25,8 +25,8 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 
 | Kullanıcı Adı | Şifre | Rol    |
 |---------------|-------|--------|
-| Batuhan         | 123  | USER  |
-| Batuhan2        | 456  | USER, MANANGER   |
+| Batuhan       | 123  | USER  |
+| Han           | 456  | USER, MANANGER   |
 
 ## API Örnekleri
 
