@@ -8,7 +8,7 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 - Müşteri oluşturma
 - Fatura oluşturma ve listeleme
 - Spring Security ile Basic Auth yetkilendirme
-- Rol bazlı endpoint erişimi (ADMIN ve USER)
+- Rol bazlı endpoint erişimi (MANAGER ve USER)
 - In-memory kullanıcı yönetimi (İlk sürüm için)
 - Open Liberty üzerinde deploy edilmiştir
 
@@ -26,7 +26,7 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 | Kullanıcı Adı | Şifre | Rol    |
 |---------------|-------|--------|
 | Batuhan       | 123  | USER  |
-| Han           | 456  | USER, MANANGER   |
+| Han           | 456  | USER, MANAGER   |
 
 ## API Örnekleri
 
