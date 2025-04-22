@@ -1,9 +1,9 @@
+
 # Invoice Management System
 
-Bu proje, Java Spring Boot ile geliştirilmiş basit bir fatura (invoice) yönetim sistemidir. 
-Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi sağlamak ve gerçek hayattaki muhasebe yazılımlarının temel yapısını örneklemektir.
+Bu proje, Java Spring Boot kullanılarak geliştirilmiş basit bir fatura yönetim sistemidir. Temel amacı, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi sağlamak ve gerçek hayattaki muhasebe yazılımlarının temel yapısını örneklemektir.
 
-## Özellikler
+## 🚀 Özellikler
 
 - Müşteri oluşturma
 - Fatura oluşturma ve listeleme
@@ -12,7 +12,7 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 - In-memory kullanıcı yönetimi (İlk sürüm için)
 - Open Liberty üzerinde deploy edilmiştir
 
-## Kullanılan Teknolojiler
+## 🛠️ Kullanılan Teknolojiler
 
 - Java 17
 - Spring Boot 3.4.4
@@ -21,24 +21,18 @@ Temel amaç, müşteri-fatura ilişkisini yönetmek, güvenli endpoint erişimi 
 - Open Liberty (Servlet konteyner)
 - Maven
 
-## Roller
+## 👥 Roller ve Giriş Bilgileri
 
-| Kullanıcı Adı | Şifre | Rol    |
-|---------------|-------|--------|
-| Batuhan       | 123  | USER  |
-| Han           | 456  | USER, MANAGER   |
+| Kullanıcı Adı | Şifre | Roller           |
+|---------------|-------|------------------|
+| Batuhan       | 123   | USER             |
+| Han           | 456   | USER, MANAGER    |
 
-## API Örnekleri
+## ⚙️ Kurulum
 
-### Fatura Oluştur
-
-```http
-POST /api/invoices
-Authorization: Basic (Batuhan / 123)
-Content-Type: application/json
-
-{
-  "customerId": 1,
-  "amount": 500,
-  "description": "Yıllık muhasebe hizmeti"
-}
+```bash
+git clone https://github.com/cbasanbuga/Invoice-Management-System.git
+cd Invoice-Management-System
+mvn clean install
+mvn spring-boot:run
+```
